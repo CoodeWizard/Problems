@@ -1,0 +1,12 @@
+
+int main( )
+{int a,b;
+cout<<"a="
+cin>>a>>b;
+cout<<"b=",
+cin>>b;
+if(a %=0)
+cout<<"a este par";
+if(b%=0)
+cout<<"b este par";
+}
