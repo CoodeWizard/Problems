@@ -1,0 +1,9 @@
+int main()
+{ int x;
+cin>>x;
+if(x%2==0&& x>=0&&x<=20)
+cout<<"da";
+else
+cout<<"nu";
+return 0;
+}
