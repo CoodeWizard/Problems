@@ -1,0 +1,12 @@
+int main()
+{int a,b,cat,rest,dif;
+cin>>a>>b;
+cat=a/b;
+resr=a%b;
+dif=cat*cat-rest*rest;
+cout<<dif;
+return 0;
+}
+int a,b;
+cin>>a>>b;
+cout<<(a/b)*(a/b)-(a%b)*(a%b);
