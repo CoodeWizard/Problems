@@ -1,0 +1,10 @@
+int main()
+{int a,b;
+float ma,mg,s;
+cin>>a>>b;
+ma=(a+b)/2;
+mg=sgrt(a*b)
+s=ma+mg;
+cout<<s;
+return 0
+}
