@@ -1,0 +1,6 @@
+int main()
+{int x,y;
+cin>>x;
+y=x%100+x/1000*100;
+cout<<y;
+return 0;}
