@@ -1,0 +1,14 @@
+int main()
+{int n,s,x,i,maxi,mini;
+cin>>n;
+maxi=-35655;
+mini=35655;
+for(i=1;i<=n;i++)
+{cin>>x;
+if(x>maxi;)
+maxi=x;
+if(x<mini)
+mini=x;
+}
+cout<<maxi+mini;
+}
