@@ -1,0 +1,13 @@
+int main()
+int n,maxi;
+cin>>n;
+maxi=-60000;
+if(n==0)
+cout<<"Nu exista";
+else 
+while(n!=0)
+{if(n>maxi)
+maxi=n;
+cin>>n;
+}
+cout<<maxi;
