@@ -1,0 +1,13 @@
+#include<iomanip>
+int main()
+{int n,i,p;
+float S;
+cin>>n;
+S=0;
+p=2;
+for(i=2;i<=n/2;i++)
+{S=S+i;
+p=p+1;}
+}
+S=(S+1+n)/p;
+cout<<setprecision(2)<<S;
