@@ -1,0 +1,12 @@
+int main()
+{int n,ogl=0,c=0;
+cin>>n;
+while(n)
+{ogl=ogl*10+n%10;
+n/=10;}
+for(int d=1;d<=ogl;d++)
+if(ogl%d==0)
+c++;
+cout<<"Nr. de devizori este:"<<c;
+return 0;
+}
